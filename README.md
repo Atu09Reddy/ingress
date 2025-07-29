@@ -87,7 +87,7 @@ This dashboard offers a comprehensive view of the underlying EC2 instance (Monit
 * **Instance Details:** The dashboard is monitoring the instance `13.221.73.243:9100`, confirming the Node Exporter target is correctly configured in Prometheus.
 
 
-These dashboards confirm that Prometheus is successfully scraping data from both Jenkins and the Node Exporter, and Grafana is effectively visualizing this data, providing crucial insights into your system's performance and health.
+These dashboard confirm that Prometheus is successfully scraping data from both Jenkins and the Node Exporter, and Grafana is effectively visualizing this data, providing crucial insights into your system's performance and health.
 
 ---
 
