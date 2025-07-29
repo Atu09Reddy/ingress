@@ -62,7 +62,7 @@ After successfully setting up Prometheus and importing the Node Exporter and Jen
 This dashboard provides insights into your Jenkins server's health, job execution, and resource utilization.
 
 **Screenshot:**
-![Jenkins Performance and Health Overview](<img width="1892" height="881" alt="Image" src="https://github.com/user-attachments/assets/44b2b025-6943-486e-a749-51daa0f8fe37" />)
+![Jenkins Performance and Health Overview](https://github.com/user-attachments/assets/44b2b025-6943-486e-a749-51daa0f8fe37)
 
 **Key Observations:**
 * **Job Metrics:** Shows 0 processing speed, 0 queued rate, and 0 Jenkins queue size, indicating no current active jobs or a clear queue.
@@ -71,13 +71,12 @@ This dashboard provides insights into your Jenkins server's health, job executio
 * **Health:** Jenkins health is at a solid 1.0 (healthy).
 * **Nodes:** No Jenkins nodes are offline.
 
-
 ### Node Exporter Full Dashboard
 
 This dashboard offers a comprehensive view of the underlying EC2 instance (Monitoring Server) where Node Exporter is running, providing system-level metrics.
 
 **Screenshot:**
-![Node Exporter Full Dashboard](<img width="1894" height="902" alt="Image" src="https://github.com/user-attachments/assets/5baaee37-c366-40d6-87f7-91927b55bae6" />)
+![Node Exporter Full Dashboard](https://github.com/user-attachments/assets/5baaee37-c366-40d6-87f7-91927b55bae6)
 
 **Key Observations:**
 * **CPU Usage:** Very low CPU utilization, with basic usage at 0.2% User, 0.7% Busy, and 0.0% System Load.
@@ -86,9 +85,7 @@ This dashboard offers a comprehensive view of the underlying EC2 instance (Monit
 * **Uptime:** The Node Exporter has been running for approximately 35.5 minutes.
 * **Instance Details:** The dashboard is monitoring the instance `13.221.73.243:9100`, confirming the Node Exporter target is correctly configured in Prometheus.
 
-
-These dashboard confirm that Prometheus is successfully scraping data from both Jenkins and the Node Exporter, and Grafana is effectively visualizing this data, providing crucial insights into your system's performance and health.
+These dashboards confirm that Prometheus is successfully scraping data from both Jenkins and the Node Exporter, and Grafana is effectively visualizing this data, providing crucial insights into your system's performance and health.
 
 ---
-
 
