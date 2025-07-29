@@ -62,7 +62,7 @@ After successfully setting up Prometheus and importing the Node Exporter and Jen
 This dashboard provides insights into your Jenkins server's health, job execution, and resource utilization.
 
 **Screenshot:**
-![Jenkins Performance and Health Overview](./images/Screenshot 2025-07-28 170712.png)
+![Jenkins Performance and Health Overview](<img width="1892" height="881" alt="Image" src="https://github.com/user-attachments/assets/44b2b025-6943-486e-a749-51daa0f8fe37" />)
 
 **Key Observations:**
 * **Job Metrics:** Shows 0 processing speed, 0 queued rate, and 0 Jenkins queue size, indicating no current active jobs or a clear queue.
@@ -77,7 +77,7 @@ This dashboard provides insights into your Jenkins server's health, job executio
 This dashboard offers a comprehensive view of the underlying EC2 instance (Monitoring Server) where Node Exporter is running, providing system-level metrics.
 
 **Screenshot:**
-![Node Exporter Full Dashboard](./images/Screenshot 2025-07-28 170640.png)
+![Node Exporter Full Dashboard](<img width="1894" height="902" alt="Image" src="https://github.com/user-attachments/assets/5baaee37-c366-40d6-87f7-91927b55bae6" />)
 
 **Key Observations:**
 * **CPU Usage:** Very low CPU utilization, with basic usage at 0.2% User, 0.7% Busy, and 0.0% System Load.
